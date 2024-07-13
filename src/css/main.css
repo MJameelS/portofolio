@@ -1,0 +1,49 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+
+/* hero awal */
+.hero {
+    background-image: url('../assets/hero/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Pastikan tinggi minimum sesuai dengan viewport */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.hero h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.hero p{
+    padding-top: 1em;
+    font-size: 1em;
+    color: black;
+}
+/* hero akhir */
+
+/* navbar awal */
+.navbar{
+    padding: 10px 0 10px 0;
+   transition: all 0.5s ease;
+}
+
+.navbar.color-active{
+    background-color: #212529  ;
+}
+/* navbar akhir */
+
+.faq .accordion{
+    --bs-accordion-bg: #cdf3c0;
+}
+
+.footer{
+    background-color: #212529;
+}
+
+
